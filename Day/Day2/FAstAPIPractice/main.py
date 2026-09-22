@@ -16,3 +16,13 @@ def health():
 @app.post("/create")
 def create_something():
     return {"message":"Created"}
+
+#Path Parameters
+@app.get("/student/{usn}")
+def get_result(usn):
+    return{"Result":"Distinction","usn":usn}
+
+#Path Parameters with type hint
+@app.get("/candidate/{rollno}")
+def get_result(rollno:int):
+    return{"Result":"Distinction","rollno":rollno,"type":str(type(rollno))}
