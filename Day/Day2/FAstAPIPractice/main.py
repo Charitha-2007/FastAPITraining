@@ -26,3 +26,4 @@ def get_result(usn):
 @app.get("/candidate/{rollno}")
 def get_result(rollno:int):
     return{"Result":"Distinction","rollno":rollno,"type":str(type(rollno))}
+
