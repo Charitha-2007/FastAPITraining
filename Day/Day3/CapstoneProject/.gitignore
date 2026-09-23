@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments and Package Managers
+.env
+.venv
+env/
+venv/
+ENV/
+.python-version
+.poetry/
+.pypackages/
+.pdm-home/
+.ruff_cache/
+
+# FastAPI specific / Database / Local files
+*.db
+*.sqlite3
+*.log
+logs/
+openapi.json
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+.hypothesis/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
